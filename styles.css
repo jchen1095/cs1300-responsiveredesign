@@ -137,11 +137,30 @@ nav a {
     background-color: #F6B3A8;
 }
 
-.divider {
+#divider1 {
     width: 60%;
     height: 2px;
     align-self:center;
-    background-color: #6F461D; /* Adjust the color as needed */
+    background-color: #A6B63D; /* Adjust the color as needed */
+    border-radius: 10px; /* Adjust the border radius to make it more rounded */
+    margin-top: 20px; /* Adjust the margin-top as needed */
+    margin-bottom: 20px; /* Adjust the margin-top as needed */
+}
+#divider2 {
+    width: 60%;
+    height: 2px;
+    align-self:center;
+    background-color: #F7BF0B; /* Adjust the color as needed */
+    border-radius: 10px; /* Adjust the border radius to make it more rounded */
+    margin-top: 20px; /* Adjust the margin-top as needed */
+    margin-bottom: 20px; /* Adjust the margin-top as needed */
+}
+
+#divider3 {
+    width: 60%;
+    height: 2px;
+    align-self:center;
+    background-color: #F6B3A8; /* Adjust the color as needed */
     border-radius: 10px; /* Adjust the border radius to make it more rounded */
     margin-top: 20px; /* Adjust the margin-top as needed */
     margin-bottom: 20px; /* Adjust the margin-top as needed */
@@ -180,7 +199,7 @@ nav a {
 }
 
 .our-story {
-    border: 2px solid #007bff; /* Blue outline */
+    border: 10px solid #A7C7FD; /* Blue outline */
     border-radius: 10px; /* Rounded edges */
     padding: 20px; /* Add padding inside the border */
     margin-bottom: 20px; /* Add padding inside the border */
@@ -196,70 +215,104 @@ nav a {
 
 .our-story p {
     text-align: justify; /* Justify align the paragraph text */
+    color: #6F461D;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: normal;
+    letter-spacing: 0.1em; /* Set letter spacing to 20% */
+    font-size: 16px;
 }
 
 /*Contact Us css*/
 .contact-us {
-    background-color: #FFC0CB; /* Pink background color */
+    background-color: #DE7575; /* Pink background color */
     border-radius: 10px; /* Rounded corners */
     padding: 20px; /* Add padding inside the div */
     display: flex; /* Use flexbox for layout */
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
+    flex-direction: row; /* Arrange items horizontally */
+    /* align-items: center; Center items horizontally */
+    align-items: flex-start; /* Align items to the top */
+    justify-content: space-between; /* Space items evenly */
+    margin-bottom: 20px;
+    width: 90%; 
+    margin-left: auto; /* Center the div */
+    margin-right: auto; /* Center the div */
 }
 
 .contact-title {
-    text-align: center; /* Center the text */
+    text-align: left; /* Center the text */
     margin-top: 0; /* Remove any default margin */
+    font-family: "Inknut Antiqua", serif;
+    font-weight: bold;
+    padding: 20px 100px; 
+    text-align: center; 
+    color: white;
 }
 
 .contact-note {
     text-align: left; /* Align text to the left */
-    margin-bottom: 10px; /* Add some space between title and note */
+    font-family: "Inknut Antiqua", serif;
+    font-weight: normal;
+    text-align: center; 
+    color: white;
+    margin-bottom: 30px; /* Add some space between title and note */
+   
 }
 
 .contact-form {
     display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Space items evenly */
-    width: 100%; /* Full width */
+    justify-content: flex-end; /* Move form to the right edge */
+    padding-left: 20px; /* Add some space to the left of the form */
+    width: 30%; /* Full width */
+    
 }
 
 .contact-form form {
     flex: 1; /* Take up remaining space */
     padding-left: 10px; /* Add some space to the left of the form */
+    /* align-self: center;  */
 }
 
-.contact-form label,
+.contact-form label {
+    color: white; /* Change the color of the labels */
+    font-family: "Inknut Antiqua", serif;
+    font-weight: normal;
+}
+
+
 .contact-form input,
 .contact-form textarea,
 .contact-form button {
     display: block; /* Display elements as block */
     margin-bottom: 10px; /* Add some space between elements */
+    font-family: "Inknut Antiqua", serif;
+    font-weight: normal;
+    text-align: left; 
+    color: #6F461D;
 }
 
 .contact-form button {
-    background-color: #DE7575; /* Button color */
-    color: white; /* Text color */
+    background-color: #F6B3A8; /* Button color */
+    color: #6F461D; /* Text color */
     border: none; /* Remove border */
     border-radius: 5px; /* Rounded corners */
     padding: 5px 10px; /* Padding inside the button */
 }
 
 .contact-form button:hover {
-    background-color: #F6B3A8; /* Button color on hover */
+    background-color: #A7C7FD; /* Button color on hover */
 }
 
 /* Footer styles */
-footer {
+/* footer {
     background-color: #6F461D;
     color: white;
     text-align: center;
     padding: 10px;
-}
+} */
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #F9D254;
+    color: #6F461D;
     text-align: center;
     padding: 10px 0;
     margin: 0 -50px; /* Set a smaller margin for the footer */
