@@ -302,15 +302,15 @@ nav a {
 }
 
 .contact-form button {
-    background-color: #F6B3A8; /* Button color */
-    color: #6F461D; /* Text color */
+    background-color: #CD3232; /* Button color */
+    color: white; /* Text color */
     border: none; /* Remove border */
     border-radius: 5px; /* Rounded corners */
     padding: 5px 10px; /* Padding inside the button */
 }
 
 .contact-form button:hover {
-    background-color: #A7C7FD; /* Button color on hover */
+    background-color: #6A90CF; /* Button color on hover */
 }
 
 /* Footer styles */
