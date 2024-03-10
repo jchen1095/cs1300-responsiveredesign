@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #FFF4D4;
+    background-color: #FFFCF5;
     padding: 50px 20vw; /* Add padding to create margins on the sides */
 }
 
@@ -40,15 +40,15 @@ h1 {
     font-weight: 500;
 }
 
-h1 span:nth-child(1) { color: #A6B63D; }
-h1 span:nth-child(2) { color: #DE7575; }
+h1 span:nth-child(1) { color: #687500; }
+h1 span:nth-child(2) { color: #CD3232; }
 h1 span:nth-child(3) { color: #6A90CF; }
-h1 span:nth-child(4) { color: #F7BF0B; }
-h1 span:nth-child(5) { color: #F6B3A8; }
-h1 span:nth-child(6) { color: #DE7575; }
+h1 span:nth-child(4) { color: #946C00; }
+h1 span:nth-child(5) { color: #A76252; }
+h1 span:nth-child(6) { color: #CD3232; }
 h1 span:nth-child(7) { color: #6A90CF; }
-h1 span:nth-child(8) { color: #F7BF0B; }
-h1 span:nth-child(9) { color: #A6B63D; }
+h1 span:nth-child(8) { color: #946C00; }
+h1 span:nth-child(9) { color: #687500; }
 /* Navigation bar styles */
 nav {
     /* background-color: #444; */
@@ -118,7 +118,7 @@ nav a {
 
 .shop-now-button {
     padding: 10px 20px;
-    background-color: #DE7575;
+    background-color: #CD3232;
     color: white;
     text-decoration: none;
     text-align: center; /* Center the text within the button */
@@ -199,7 +199,7 @@ nav a {
 }
 
 .our-story {
-    border: 10px solid #A7C7FD; /* Blue outline */
+    border: 10px solid #6A90CF; /* Blue outline */
     border-radius: 10px; /* Rounded edges */
     padding: 20px; /* Add padding inside the border */
     margin-bottom: 20px; /* Add padding inside the border */
@@ -224,7 +224,7 @@ nav a {
 
 /*Contact Us css*/
 .contact-us {
-    background-color: #DE7575; /* Pink background color */
+    background-color: #687500; /* Pink background color */
     border-radius: 10px; /* Rounded corners */
     padding: 20px; /* Add padding inside the div */
     display: flex; /* Use flexbox for layout */
@@ -311,8 +311,8 @@ nav a {
 } */
 
 footer {
-    background-color: #F9D254;
-    color: #6F461D;
+    background-color: #A76252;
+    color: white;
     text-align: center;
     padding: 10px 0;
     margin: 0 -50px; /* Set a smaller margin for the footer */
