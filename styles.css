@@ -214,7 +214,7 @@ nav a {
 }
 
 .our-story p {
-    text-align: justify; /* Justify align the paragraph text */
+    text-align: center;
     color: #6F461D;
     font-family: "Inknut Antiqua", serif;
     font-weight: normal;
