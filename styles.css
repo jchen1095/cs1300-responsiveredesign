@@ -402,7 +402,8 @@ footer {
         position: absolute;
         top: 20px;
         left: 20px; /* Move the hamburger menu to the left */
-        font-size: 24px;
+        font-size: 36px;
+        transform: scale(2);
         cursor: pointer;
         color: #6F461D;
         background: none;
